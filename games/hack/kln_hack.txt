@@ -1,0 +1,2 @@
+Klonoa
+content/kln_hack.html
