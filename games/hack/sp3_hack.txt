@@ -1,2 +1,0 @@
-Spyro 3
-content/sp3_hack.html
