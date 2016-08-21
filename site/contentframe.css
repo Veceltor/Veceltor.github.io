@@ -1,5 +1,5 @@
 body{
-	font-size: 110%;
+	font-size: 100%;
 	text-align: center;
 	background-image: url("/site/img/textBG.png");
 }
@@ -14,5 +14,5 @@ iframe {
 }
 
 #main-page { 
-	font-size: 120%;
+	font-size: 110%;
 }
