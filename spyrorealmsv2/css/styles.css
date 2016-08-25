@@ -3,7 +3,7 @@ table {
 }
 
 #sidebar{
-	background-image: url("/spyrorealmsv2/img/navBG.png");
+	background-image: url("../img/navBG.png");
 	margin: auto;
 	width: 100%;
 }
