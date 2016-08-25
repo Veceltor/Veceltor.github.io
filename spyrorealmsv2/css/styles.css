@@ -1,15 +1,28 @@
 table { 
 	text-align: center;
+	border: none;
+	border-spacing: 0px;
 }
+
+td {
+	vertical-align: top;
+}
+
+a:link, a:visited {
+    color: brown;
+}
+
+
 
 #sidebar{
 	background-image: url("../img/navBG.png");
 	margin: auto;
 	width: 100%;
+	vertical-align: center;
+	text-align: left;
 }
 
 #header-img{
-	filter: grayscale(100%);
 	margin-top: -8px;
 	margin-left: -8px;
 	margin-bottom: 12px;
