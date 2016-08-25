@@ -1,2 +1,0 @@
-Infestation
-content/inf_text.html

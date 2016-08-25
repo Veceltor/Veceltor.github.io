@@ -1,2 +1,0 @@
-Spyro
-content/spyro.html

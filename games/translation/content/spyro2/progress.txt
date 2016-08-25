@@ -1,2 +1,0 @@
-Spyro 2
-c_progress.html
