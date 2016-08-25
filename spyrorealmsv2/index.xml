@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Перевод и модификация старых игр</title>
-    <link>http://veceltor.github.io/spyrorealmsv2/</link>
+    <link>https://veceltor.github.io/spyrorealmsv2/</link>
     <description>Recent content on Перевод и модификация старых игр</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <lastBuildDate>Thu, 25 Aug 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://veceltor.github.io/spyrorealmsv2/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://veceltor.github.io/spyrorealmsv2/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Несерьёзно-секретно</title>
-      <link>http://veceltor.github.io/spyrorealmsv2/start/</link>
+      <link>https://veceltor.github.io/spyrorealmsv2/start/</link>
       <pubDate>Thu, 25 Aug 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://veceltor.github.io/spyrorealmsv2/start/</guid>
+      <guid>https://veceltor.github.io/spyrorealmsv2/start/</guid>
       <description>&lt;p&gt;Страница тестирования дизайна.&lt;/p&gt;
 </description>
     </item>
