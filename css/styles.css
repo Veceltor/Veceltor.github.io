@@ -9,11 +9,17 @@ td {
 	
 }
 
-a:link, a:visited {
-    color: brown;
+#list-item {
+	text-decoration: none;
+    color: black;
+	font-size:14px;
 }
 
-#mainblock{
+a:link, a:visited {
+	text-decoration: none;
+}
+
+#mainblock {
 	margin-top: -17px;
 	margin-left: -8px;
 }
@@ -23,16 +29,19 @@ a:link, a:visited {
 }
 
 #barBorder{
-	background-image: url("../img/navBorder.png");
+	background-image: url("../img/navBG.png");
 }
 
 #sidebar{
-	background-image: url("../img/navBG.png");
 	width: 190px;
 	vertical-align: center;
 	text-align: left;
-	margin-left: 4px;
-	margin-top: 4px;
+	margin-left: 14px;
+	margin-top: 8px;
+}
+
+#sidebar-header{
+	margin-top: 15px;
 }
 
 #header-img{
@@ -42,6 +51,6 @@ a:link, a:visited {
 	border: none;
 }
 
-body{
-	background-color: lightyellow;
+#content-window {
+	background-image: url("../img/mainBG.png");
 }
