@@ -1,0 +1,81 @@
+/*
+ * This is a color override for the Rarity theme
+ * */
+ 
+body {
+/* Page BG color */
+	background: #ecedf0; /* [BGCOLOR] */
+}
+
+#logo {
+	background: url('rarity.png') no-repeat;
+}
+
+#sidebar ul li h2 {
+	background: none; /* Also don't need it. */
+	border: none;
+	color: white;
+}
+
+/*===[ FOREGROUND COLOR ]=============================================*/
+#navi, #topnav_block, #footer, #sidebar ul li h2.widgettitle, .moretext:hover, .comment-reply-link:hover, .post_links a, .postmeta {
+/* BG color for beneath the gradient in the navigation. */
+	background-image: none; /* Don't need any background images. */
+	background-color: #6258a5; /* [FGCOLOR] */
+	color: white !important;
+}
+#navi ul li a:hover, .post .entry, .page .entry, .postinfo, .post_links a:hover {
+/* This is for the hover-over navigation links up top. */
+	background: white;
+	color: #6258a5 !important; /* [FGCOLOR] */
+}
+.moretext, .wp-caption, .shadow_box, .submit, .comment-reply-link, .arh, .post, .page, #sidebar ul li ul {
+/* These should be a little bit lighter color than the other navigation */
+	background: none;
+	background-color: #b5c9ff; /* [BGCOLOR] */
+	color: #65718f; /* [HEADERCOLOR] */
+	border-color: #6258a5 !important; /* [FGCOLOR] */
+}
+
+#comments .comment {
+	background: rgba(181, 201, 255, 0.3); /* [BGCOLOR in rgba() format] */
+}
+
+
+/*===[ FONT COLORS ]==================================================*/
+	/* For anything inside the content and stuff, since navigation
+	   font colors should be handled under FOREGROUND COLOR */
+#content .postmeta, #content .attachment h2 {
+	color: white !important;
+}
+#comments h3, #respond h3 {
+	color: #65718f; /* [HEADERCOLOR] */
+	border-bottom: 1px #65718f solid; /* [HEADERCOLOR] */
+}
+#content a, #comments a:link, #comments a:visited, #respond a:link, #respond a:visited {
+	color: #65718f; /* Monochromatic darker in Agave */ /* [HEADERCOLOR] */
+}
+#content a:hover, #content a:active, #comments a:hover, #comments a:active, #respond a:hover, #respond a:active {
+	color: #7785a8; /* Monochromatic darker +1 brightness in Agave */ /* [HEADERCOLORHOVER] */
+}
+.postmeta a {
+	color: white !important;
+}
+.postmeta a:hover {
+	color: #dfdfdf !important;
+}
+.postinfo a {
+	color: inherit !important; /* This makes it so the links are black or whatever they should be. */
+}
+
+
+
+/*===[ BORDER COLORS ]================================================*/
+	/* This is where various border colors go for sidebars and stuff.
+	   everything here should be under FGCOLOR */
+#sidebar .widget ul, #comments .comment, .arh, .post, .page, .postmeta {
+	border-color: #6258a5; /* [FGCOLOR] */
+}
+.page h2, .post h2, .attachment h2, .hentry h2 {
+	border-color: #b5c9ff; /* [BGCOLOR] or [HEADERCOLOR] */
+}

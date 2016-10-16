@@ -1,0 +1,81 @@
+/*
+ * This is a color override for the Applejack theme
+ * */
+ 
+body {
+/* Page BG color */
+	background: #fab763; /* [BGCOLOR] */
+}
+
+#logo {
+	background: url('applejack.png') no-repeat;
+}
+
+#sidebar ul li h2 {
+	background: none; /* Also don't need it. */
+	border: none;
+	color: white;
+}
+
+/*===[ FOREGROUND COLOR ]=============================================*/
+#navi, #topnav_block, #footer, #sidebar ul li h2.widgettitle, .moretext:hover, .comment-reply-link:hover, .post_links a, .postmeta {
+/* BG color for beneath the gradient in the navigation. */
+	background-image: none; /* Don't need any background images. */
+	background-color: #de7e34; /* [FGCOLOR] */
+	color: white !important;
+}
+#navi ul li a:hover, .post .entry, .page .entry, .postinfo, .post_links a:hover {
+/* This is for the hover-over navigation links up top. */
+	background: white;
+	color: #de7e34 !important; /* [FGCOLOR] */
+}
+.moretext, .wp-caption, .shadow_box, .submit, .comment-reply-link, .arh, .post, .page, #sidebar ul li ul {
+/* These should be a little bit lighter color than the other navigation */
+	background: none;
+	background-color: #fab763; /* [BGCOLOR] */
+	color: #874c1f; /* [HEADERCOLOR] */
+	border-color: #de7e34 !important; /* [FGCOLOR] */
+}
+
+#comments .comment {
+	background: rgba(250, 183, 99, 0.3); /* [BGCOLOR in rgba() format] */
+}
+
+
+/*===[ FONT COLORS ]==================================================*/
+	/* For anything inside the content and stuff, since navigation
+	   font colors should be handled under FOREGROUND COLOR */
+#content .postmeta, #content .attachment h2 {
+	color: white !important;
+}
+#comments h3, #respond h3 {
+	color: #874c1f; /* [HEADERCOLOR] */
+	border-bottom: 1px #874c1f solid; /* [HEADERCOLOR] */
+}
+#content a, #comments a:link, #comments a:visited, #respond a:link, #respond a:visited {
+	color: #874c1f; /* Monochromatic darker in Agave */ /* [HEADERCOLOR] */
+}
+#content a:hover, #content a:active, #comments a:hover, #comments a:active, #respond a:hover, #respond a:active {
+	color: #a15b25; /* Monochromatic darker +1 brightness in Agave */ /* [HEADERCOLORHOVER] */
+}
+.postmeta a {
+	color: white !important;
+}
+.postmeta a:hover {
+	color: #dfdfdf !important;
+}
+.postinfo a {
+	color: inherit !important; /* This makes it so the links are black or whatever they should be. */
+}
+
+
+
+/*===[ BORDER COLORS ]================================================*/
+	/* This is where various border colors go for sidebars and stuff.
+	   everything here should be under FGCOLOR */
+#sidebar .widget ul, #comments .comment, .arh, .post, .page, .postmeta {
+	border-color: #de7e34; /* [FGCOLOR] */
+}
+.page h2, .post h2, .attachment h2, .hentry h2 {
+	border-color: #a15b25; /* [BGCOLOR] or [HEADERCOLOR] */
+}
