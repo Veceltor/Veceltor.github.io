@@ -1,0 +1,19 @@
+{{ partial "pre_header.html" . }}
+{{ partial "header.html" . }}
+<table><tr><td width=200px>
+{{ partial "sidebar.html" . }}
+</td>
+<td width=1200px>
+<section id="main">
+  <div>
+   <h1 id="title">{{ .Title }}</h1>
+        <ul id="list">
+            {{ range .Data.Pages }}
+                {{ .Render "li"}}
+            {{ end }}
+        </ul>
+  </div>
+</section>
+</td></tr>
+</table>
+{{ partial "footer.html" . }}

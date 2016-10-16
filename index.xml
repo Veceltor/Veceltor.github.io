@@ -6,8 +6,55 @@
     <description>Recent content on Перевод и модификация старых игр</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
-    <lastBuildDate>Sat, 27 Aug 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 Oct 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://veceltor.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Перевод Sunrise Spring</title>
+      <link>https://veceltor.github.io/translations/spyro/</link>
+      <pubDate>Sun, 16 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://veceltor.github.io/translations/spyro/</guid>
+      <description>
+
+&lt;h2 id=&#34;персонажи&#34;&gt;Персонажи&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/208px-Markdown-mark.svg.png&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
+&lt;strong&gt;Первый&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Текст 1 &lt;a href=&#34;http://tvtropes.org&#34;&gt;озвучка&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Текст 2&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Второй&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Текст 1&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;только-текст&#34;&gt;Только текст&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Табличка 1&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Новый сайт</title>
+      <link>https://veceltor.github.io/files/testfile/</link>
+      <pubDate>Tue, 27 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://veceltor.github.io/files/testfile/</guid>
+      <description>&lt;p&gt;Проверка записи для файла&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Другая тема оформления</title>

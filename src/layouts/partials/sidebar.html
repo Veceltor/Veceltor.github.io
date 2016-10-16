@@ -1,0 +1,21 @@
+<table id="barBorder"><tr><td width=200px height=330px>
+<center><div id="sidebar-header"></div></center>
+<table id="sidebar" border="0" width=200px>
+	<tr><td height=30px></td></tr>
+			<tr><td height=50px id="list-item"><br>
+			<img src="{{ .Site.BaseURL }}/img/smallgem.png">  <a id="list-item" href="{{ .Site.BaseURL }}/site/about">О сайте</a><br></td></tr>
+			<tr><td height=30px><img src="{{ .Site.BaseURL }}/img/smallgem.png">  <a id="list-item" href="{{ .Site.BaseURL }}/news">Новости</a><br></td></tr>
+			<tr><td height=30px><img src="{{ .Site.BaseURL }}/img/smallgem.png">  <a id="list-item" href="http://ru.spyro.wikia.com">Spyro Wiki</a><br></td></tr>
+			<tr><td height=30px><img src="{{ .Site.BaseURL }}/img/smallgem.png">  <a id="list-item" href="http://www.spyro-realms.com/forum/">Spyro Realms</a><br></td></tr>
+			<tr><td height=30px><img src="{{ .Site.BaseURL }}/img/smallgem.png">  <a id="list-item" href="{{ .Site.BaseURL }}/translations">Перевод Spyro 3</a><br>
+				<tr><td height=30px><img src="{{ .Site.BaseURL }}/img/smallgem.png">  <a id="list-item" href="{{ .Site.BaseURL }}/files">Файлы</a><br></td></tr>
+				</td></tr>
+			<tr><td height=65px>
+			<br>
+			</td></tr>
+		</table>
+		</td></tr>
+		</table>
+		<table><tr><td height=44px></td></tr></table>
+  {{ range $key, $value := .Site.Taxonomies }}
+  {{ end }}
