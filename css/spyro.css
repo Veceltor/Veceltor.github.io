@@ -1,0 +1,77 @@
+*{margin: 0; padding: 0;}
+body{ background: rebeccapurple;}
+
+#wrapper{
+	position: relative;
+	margin: 50px 5% 20px;
+	padding: 0 30px 50px;
+	background: beige;
+	font-family: 'PT Serif Caption';
+}
+.corner, .corner2, .corner3, .corner4{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	background: url("../img/hard_all.png");
+}
+.corner{ left: 0; top: 0;}
+.corner2{ right: 0; top: 0; background-position: 20px 0;}
+.corner3{ left: 0; bottom: 0; background-position: 0 20px;}
+.corner4{ right: 0; bottom: 0; background-position: 20px 20px;}
+
+h1{
+	text-align: center;
+	margin: 20px 0;
+	padding-top: 25px;
+	font-family: 'Ruslan Display';
+}
+h2{
+	font-family: 'Ruslan Display';
+	margin-top: 25px;
+}
+
+.pic_cont {
+	text-align: center;
+	border-radius: 12px;
+	padding: 12px 12px 8px;
+	box-shadow: 0px 0px 3px;
+	background: white;
+	width: 800px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+.pic_cont img{
+	border-radius: 12px;
+	box-shadow: 0px 0px 1px;
+	width: 800px;
+	max-width: calc(100% - 16px);
+}
+hr{
+	background: url("../img/new_hr.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 33px;
+	border: none;
+	margin: 25px 0 0;
+}
+
+/* Characters */
+.character{overflow: hidden;}
+.character img{
+	float: left;
+	width: 150px;
+	border-radius: 4px;
+}
+
+.reply{margin-left: 160px;}
+.reply span{ font-size: small;}
+.eng{
+	background: rgba(188, 143, 143, 0.22);
+	padding: 4px 0;
+}
+.rus{	margin: -8px 0 15px;}
+.reply mark{
+	font-style: italic;
+	background: lavender;
+	border-bottom: 1px dashed rebeccapurple;
+}

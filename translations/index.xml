@@ -10,39 +10,45 @@
     <atom:link href="https://veceltor.github.io/translations/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Перевод Sunrise Spring</title>
+      <title>Перевод Cloud Spires</title>
       <link>https://veceltor.github.io/translations/spyro/</link>
       <pubDate>Sun, 16 Oct 2016 00:00:00 +0000</pubDate>
       
       <guid>https://veceltor.github.io/translations/spyro/</guid>
       <description>
 
-&lt;h2 id=&#34;персонажи&#34;&gt;Персонажи&lt;/h2&gt;
+&lt;h1 id=&#34;cloud-spires&#34;&gt;Cloud Spires&lt;/h1&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/208px-Markdown-mark.svg.png&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
-&lt;strong&gt;Первый&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Текст 1 &lt;a href=&#34;http://tvtropes.org&#34;&gt;озвучка&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Текст 2&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Второй&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Текст 1&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;div class=&#34;pic_cont&#34;&gt;
+        &lt;img src=&#34;http://nihonjinryuu.narod.ru/jikken/Spyro3-PR/cs_cover.jpg&#34; /&gt;
+    &lt;/div&gt;
 
 &lt;hr /&gt;
 
-&lt;h2 id=&#34;только-текст&#34;&gt;Только текст&lt;/h2&gt;
+&lt;h2 id=&#34;zoe&#34;&gt;Zoe&lt;/h2&gt;
 
-&lt;ul&gt;
-&lt;li&gt;Табличка 1&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;http://nihonjinryuu.narod.ru/jikken/Spyro3-PR/zoe.jpg&#34; alt=&#34;zoe-img&#34; /&gt;&lt;br /&gt;
+&lt;br&gt;
+&lt;strong&gt;278&lt;/strong&gt; &lt;em&gt;Remember, to get your longest glide press the &amp;lt; button at the very top of your jump, and use the } button to hover at the end of your jump.&lt;/em&gt;
+Не забудь, чтобы лететь дальше, нажимай &amp;lt; в самом пике прыжка, а в конце полёта нажми }, чтобы подняться повыше.&lt;br /&gt;
+&lt;br&gt;
+&lt;strong&gt;251&lt;/strong&gt; &lt;em&gt;The metal armor those enemies are wearing protects them from your dragon flame. If you hold down the &amp;gt; button, you can defeat them with your charge attack.&lt;/em&gt;&lt;br /&gt;
+Этих врагов от твоего пламени защищает стальная броня. Ты с ними справишься, если протаранишь их с разбега, нажав &amp;gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;section class=&#34;character&#34;&gt;
+            &lt;h2&gt;Fluffy&lt;/h2&gt;
+            &lt;img src=&#34;http://vignette1.wikia.nocookie.net/spyro/images/b/ba/Nimbus.jpg/revision/latest?cb=20110213090607&#34; /&gt;
+            &lt;div class=&#34;reply&#34;&gt;
+                &lt;p class=&#34;eng&#34;&gt;&lt;span&gt;1097&lt;/span&gt; The rhynocs have shut down our cloud generator and I&#39;ll never see a rainbow again.&lt;/p&gt;
+                &lt;p class=&#34;rus&#34;&gt;Носороги заглушили наш генератор облаков, и теперь я никогда не увижу радугу.&lt;/p&gt;
+                
+                &lt;p class=&#34;eng&#34;&gt;&lt;span&gt;469&lt;/span&gt; You&#39;d think the Sorceress would want more rain, after what the sun has done to her skin.&lt;/p&gt;
+                &lt;p class=&#34;rus&#34;&gt;Казалось бы, Колдунье захочется ливня, после того, что солнце сделало с её кожей.&lt;/p&gt;
+                &lt;mark&gt;(в озвучке интонацией подчеркнуть типа &#34;аж целого ЛИВНЯ&#34;, а не просто какого-то дождичка)&lt;/mark&gt;
+            &lt;/div&gt;
+        &lt;/section&gt;
 </description>
     </item>
     

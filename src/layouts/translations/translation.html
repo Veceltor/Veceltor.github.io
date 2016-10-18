@@ -1,0 +1,21 @@
+{{ partial "pre_header.html" . }}
+<link href="https://fonts.googleapis.com/css?family=Ruslan+Display" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=PT+Serif+Caption" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="{{ .Site.BaseURL }}/css/spyro.css">
+    {{ .Hugo.Generator }}
+<title>Перевод Cloud Spires - {{ .Site.Title }}</title>
+</head>
+<body>
+
+<div id="wrapper">
+
+	<p class="corner"></p>
+	<p class="corner2"></p>
+	<p class="corner3"></p>
+	<p class="corner4"></p>
+
+		 {{ .Content }}
+
+</div>
+{{ partial "basiccontrols.html"}}
+{{ partial "footer.html" . }}
