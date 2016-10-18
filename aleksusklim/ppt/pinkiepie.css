@@ -1,0 +1,83 @@
+/*
+ * This is a color override for the Pinkie Pie theme
+ * */
+ 
+body {
+/* Page BG color */
+	background: #f1bbda; /* [BGCOLOR] */
+}
+
+#logo {
+	background: url('pinkiepie.png') no-repeat;
+}
+
+#sidebar ul li h2 {
+	background: none; /* Also don't need it. */
+	border: none;
+	color: white;
+}
+
+/*===[ FOREGROUND COLOR ]=============================================*/
+#navi, #topnav_block, #footer, #sidebar ul li h2.widgettitle, .moretext:hover, .comment-reply-link:hover, .post_links a, .postmeta {
+/* BG color for beneath the gradient in the navigation. */
+	background-image: none; /* Don't need any background images. */
+	background-color: #e7488c; /* [FGCOLOR] */
+	color: white !important;
+}
+#navi ul li a:hover, .post .entry, .page .entry, .postinfo, .post_links a:hover {
+/* This is for the hover-over navigation links up top. */
+	background: white;
+	color: #e7488c !important; /* [FGCOLOR] */
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+}
+.moretext, .wp-caption, .shadow_box, .submit, .comment-reply-link, .arh, .post, .page, #sidebar ul li ul {
+/* These should be a little bit lighter color than the other navigation */
+	background: none;
+	background-color: #f1bbda; /* [BGCOLOR] */
+	color: #912d59; /* [HEADERCOLOR] */
+	border-color: #e7488c !important; /* [FGCOLOR] */
+}
+
+#comments .comment {
+	background: rgba(241, 187, 218, 0.3); /* [BGCOLOR in rgba() format] */
+}
+
+
+/*===[ FONT COLORS ]==================================================*/
+	/* For anything inside the content and stuff, since navigation
+	   font colors should be handled under FOREGROUND COLOR */
+#content .postmeta, #content .attachment h2 {
+	color: #912d59; /* [HEADERCOLOR] */
+}
+#comments h3, #respond h3 {
+	color: #912d59; /* [HEADERCOLOR] */
+	border-bottom: 1px #912d59 solid; /* [HEADERCOLOR] */
+}
+#content a, #comments a:link, #comments a:visited, #respond a:link, #respond a:visited {
+	color: #912d59; /* Monochromatic darker in Agave */ /* [HEADERCOLOR] */
+}
+#content a:hover, #content a:active, #comments a:hover, #comments a:active, #respond a:hover, #respond a:active {
+	color: #ff5ca3; /* Monochromatic darker +1 brightness in Agave */ /* [HEADERCOLORHOVER] */
+}
+.postmeta a {
+	color: white !important;
+}
+.postmeta a:hover {
+	color: #dfdfdf !important;
+}
+.postinfo a {
+	color: inherit !important; /* This makes it so the links are black or whatever they should be. */
+}
+
+
+
+/*===[ BORDER COLORS ]================================================*/
+	/* This is where various border colors go for sidebars and stuff.
+	   everything here should be under FGCOLOR */
+#sidebar .widget ul, #comments .comment, .arh, .post, .page, .postmeta {
+	border-color: #e7488c; /* [FGCOLOR] */
+}
+.page h2, .post h2, .attachment h2, .hentry h2 {
+	border-color: #f1bbda; /* [BGCOLOR] or [HEADERCOLOR] */
+}

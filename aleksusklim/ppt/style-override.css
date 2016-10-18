@@ -1,0 +1,390 @@
+/*
+Everything in here is used to override any style rules in the main
+style. Because that's a pretty cool thing to do and it will make it
+
+		TWENTY PERCENT COOLER!!
+*/
+
+/* Let's start with the HTML tags */
+body {
+	background-position: bottom left;
+	background-repeat: repeat-x;
+	background-attachment: fixed;
+}
+
+/* Now we do the other stuff. */
+#header, #head, #wrap, #wrapper, #logo {
+	margin-top: 0;
+	padding-top: 0;
+}
+#head {
+	position: relative;
+}
+#logo {
+	width: 900px;
+	height: 150px;
+	margin: 0 auto;
+}
+#logo a {
+	display: block;
+	height: 150px;
+	text-decoration: none;
+	border: none;
+}
+#topnavi {
+	display: none; /* We don't need this, really. */
+	float: right;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 150px;
+}
+#topnavi li {
+	font-size: 10px;
+}
+#navi {
+	border-radius: 25px 25px 0 0 / 15px 15px 0 0;
+	-moz-border-radius: 25px 25px 0 0 / 15px 15px 0 0;
+}
+#wrap {
+	border-radius: 25px / 15px;
+	-moz-border-radius: 25px / 15px;
+}
+#navi {
+	margin: 0 auto;
+	background-color: #433954;
+}
+#navi ul {
+	padding-top: 5px;
+	margin: 0 auto;
+	text-align: center;
+}
+#navi li {
+	border-left: 0;
+	text-align: center;
+}
+#navi li:first-child {
+	border-left: 0;
+}
+#navi ul li {
+	float: none;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+}
+#navi ul li a {
+	width: auto;
+	display: inline;
+	padding: 5px 10px;
+	margin: 5px 5px;
+	line-height: 25px;
+	white-space: nowrap;
+}
+#navi ul li a .navsub {
+	display: inline;
+}
+#navi ul li a:hover {
+	background: #913fac;
+	color: #fff !important;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+}
+.navsub {
+	text-align: center;
+	font-size: 11px;
+}
+#topnav_block {
+	background: #433954;
+	padding: 5px;
+	border-radius: 0 0 25px 25px / 0 0 15px 15px;
+	-moz-border-radius: 0 0 25px 25px / 0 0 15px 15px;
+	height: 100px;
+}
+#topnav_style_change_block {
+	font-size: 10px;
+	float: right;
+	text-align: center;
+	width: 125px;
+	height: 90px;
+	background: white;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	padding: 5px;
+}
+#topnav_style_change_block b {
+	color: black;
+}
+.brony_theme_change_icon {
+	width: 32px;
+	height: 32px;
+	margin: 0 2px;
+	cursor: pointer;
+}
+#topnav_ad_outer {
+	width: 728px;
+	height: 90px;
+	background: white;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	padding: 5px;
+}
+#content {
+	padding-top: 0;
+	padding: 0 5px;
+	margin-top: 0;
+	width: 685px;
+}
+#sidebar {
+	padding-top: 0;
+	width: auto;
+	margin-left: 695px;
+	margin-right: 5px;
+}
+#sidebar_ad_outer {
+	margin: 5px auto;
+	text-align: center;
+}
+#sidebar ul li h2 {
+	border-radius: 15px 15px 0 0 / 15px 15px 0 0;
+	-moz-border-radius: 15px 15px 0 0 / 15px 15px 0 0;
+	border-radius: 15px 15px 0 15px / 15px 15px 0 15px;
+	-moz-border-radius: 15px 15px 0 15px / 15px 15px 0 15px;
+	margin-bottom: 0;
+}
+#sidebar ul li {
+	font-size: 12px;
+	margin-bottom: 0;
+	list-style: none outside;
+	margin-left: 0;
+}
+#sidebar ul li li {
+	list-style: square outside;
+	margin-left: 1em;
+	border-bottom: 1px #666 solid;
+	border-color: rgba(0,0,0,0.4);
+}
+#sidebar ul li li:last-child {
+	border-bottom: none;
+}
+#sidebar ul li ul {
+	border-radius: 0 0 15px 15px / 0 0 15px 15px;
+	-moz-border-radius: 0 0 15px 15px / 0 0 15px 15px;
+	list-style: square outside;
+	margin-left: 12px;
+	border-top: none;
+	margin-top: 0;
+	padding-top: 2px;
+}
+#sidebar ul li ul a:hover, #sidebar ul li ul a:active {
+	color: rgba(0, 0, 0, 0.5);
+	text-decoration: none;
+}
+#wrap {
+	-moz-box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+	-webkit-box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+}
+.shadow_box, #sidebar .widget > ul, .postinfo, .more-link, .wp-caption, .submit, .comment-reply-link, .arh, .post, .page, .post .entry, .page .entry {
+	-moz-box-shadow: 1px 3px 4px rgba(0,0,0,0.3);
+	-webkit-box-shadow: 1px 3px 4px rgba(0,0,0,0.3);
+	box-shadow: 1px 3px 4px rgba(0,0,0,0.3);
+	color: black;
+	border-color: black;
+}
+#sidebar ul li ul, #sidebar ul li div{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+#sidebar ul ul li {
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin: 2px 0;
+	display: block;
+}
+#sidebar ul .children {
+	margin-top: 0;
+	padding-top: 0;
+	margin-left: 0;
+}
+#sidebar ul .children li {
+	list-style: square outside;
+	list-style: none;
+	border-color: #666;
+	display: block;
+	margin-left: 0;
+	border-bottom: 1px dotted rgba(0, 0, 0, 0.4);
+	border-bottom: none;
+	border-top: 1px dotted rgba(0, 0, 0, 0.4);
+}
+
+.page h2, .post h2, .attachment h2, .hentry h2 {
+	font-size: 1.6em;
+	border-bottom: 1px #666 solid;
+	margin-bottom: 10px;
+}
+.arh { /* Archive/Category Header block */
+	font-size: 2.0em;
+}
+.wp-caption, .comment-reply-link {
+	border-radius: 15px / 15px;
+	-moz-border-radius: 15px / 15px;
+}
+.wp-caption-text {
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	background: white;
+}
+.more_posts {
+	margin-top: 5px;
+	margin-bottom: 0;
+}
+.post_links a, .post_links a:hover {
+	padding: 2px 4px;
+	margin: 2px;
+	font-weight: bold;
+	text-decoration: none !important;
+	border: none;
+	border-radius: 15px 15px 0 0;
+	-moz-border-radius: 15px 15px 0 0;
+}
+.reply {
+	padding: 3px;
+	margin: 3px 3px 5px 5px;
+	font-size: 12px;
+}
+.comment-reply-link {
+	border: 1px #666 solid;
+	padding: 2px 4px;
+	margin: 2px;
+	font-weight: bold;
+	text-decoration: none !important;
+}
+.comment-body p {
+	position: relative;
+	background: white;
+	border-radius: 15px / 15px;
+	-moz-border-radius: 15px / 15px;
+	font-size: 14px;
+	padding: 8px 3px;
+	margin-top: 15px;
+}
+.comment-body p:after {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: 23px;
+	top: -12px;
+	border: 10px solid;
+	border-color: transparent transparent white white;
+}
+.post .avatar, .page .avatar, .archive .avatar {
+	float: left;
+	padding: 5px;
+	margin-right: 5px;
+	background: white;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+.entry ul, .comment ul {
+	list-style: square outside;
+	margin-left: 1em;
+}
+.postinfo {
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	margin: 10px 5px;
+}
+.more-link {
+	margin: 0 auto;
+	text-align: center;
+	border-radius: 5px / 5px;
+	-moz-border-radius: 5px / 5px;
+}
+
+
+#comments h3, #respond h3 {
+	margin: 0;
+	padding: 2px;
+	border: none;
+	border-radius: 0;
+	-moz-border-radius: 0;
+	border-bottom: 1px #666 solid;
+	background: none;
+}
+#comments .comment {
+	padding: 2px 5px;
+}
+#commentform textarea {
+	margin-bottom: 5px !important;
+}
+.comment-form-comment {
+	margin-bottom: 5px !important;
+}
+.form-submit {
+	text-align: center;
+}
+.submit {
+	margin: 0 auto;
+	display: inline !important;
+}
+#content .post, #content .page {
+	border: 1px black solid;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	margin-bottom: 10px;
+	padding: 0;
+	margin: 5px 0;
+}
+#content .post .entry, #content .page .entry {
+	margin: 5px;
+	padding: 5px;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+}
+.postmeta {
+	margin: 0;
+	padding: 5px;
+	padding-bottom: 10px;
+	border-radius: 10px 10px 20px 20px / 10px;
+	-moz-border-radius: 10px 10px 20px 20px / 10px;
+}
+.postmeta h2 {
+	font-weight: bold;
+}
+
+.wp-smiley {
+	vertical-align: middle;
+}
+h2.post_title {
+	margin-bottom: 2px;
+}
+span.date {
+	padding-left: 0;
+	background: none;
+}
+
+
+
+/* My own rules can go down here */
+.warning_box {
+	border: 1px #993333 solid;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	padding: 5px;
+	background: #ffc8c1 !important;
+}
+.comment_unregistered_box {
+	float: right;
+	width: 300px;
+}
+
+
+
+.wp-post-image {
+	float: right;
+}
+
+.c_top input[type=text] {
+border: 1px solid !important;
+background-color: white !important;
+}
