@@ -1,0 +1,133 @@
+/* CSS Spyro 3 catd*/
+*{margin: 0; padding: 0;}
+body{ background: rebeccapurple;}
+h1{
+	text-align: center;
+	margin: 20px 0;
+	padding-top: 25px;
+	font-family: 'Ruslan Display';
+}
+h2{
+	font-family: 'Ruslan Display';
+	margin-top: 25px;
+}
+#wrapper{
+	position: relative;
+	margin: 0 5% 20px;
+	padding: 0 30px 50px;
+	background: beige;
+	font-family: 'PT Serif Caption';
+}
+
+/* Углы полотна */
+.corner, .corner2, .corner3, .corner4{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	background: url(http://nihonjinryuu.narod.ru/jikken/Spyro3-PR2/hard_all.png);
+}
+.corner{ left: 0; top: 0;}
+.corner2{ right: 0; top: 0; background-position: 20px 0;}
+.corner3{ left: 0; bottom: 0; background-position: 0 20px;}
+.corner4{ right: 0; bottom: 0; background-position: 20px 20px;}
+
+/* -== Верхняя часть ==- */
+.pic_cont {
+	text-align: center;
+	border-radius: 12px;
+	padding: 12px 12px 8px;
+	box-shadow: 0px 0px 3px;
+	background: white;
+	max-width: 800px;
+	margin: 0 auto;
+}
+.pic_cont img{
+	border-radius: 12px;
+	box-shadow: 0px 0px 1px;
+	width: 800px;
+	max-width: calc(100% - 16px);
+}
+hr{
+	background: url(http://nihonjinryuu.narod.ru/jikken/Spyro3-PR2/new_hr.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 33px;
+	border: none;
+	margin: 25px 0 0;
+}
+.download-btn{
+	display: block;
+	width: 150px;	
+	margin: 25px auto 0;
+	padding: 2px;	
+	background: #8cd0e6;
+	color: #3a3a3a;	
+	text-decoration: none;
+	text-align: center;	
+	cursor: pointer;	
+	border-radius: 6px;
+	box-shadow: 0 2px 1px black;
+	transition: 0.4s;
+}
+.download-btn:active{
+	background: #48ccf7;
+	box-shadow: 0 1px 1px black;
+}
+
+/* -== Блок персонажа ==- */
+.character{overflow: hidden;}
+.character img {
+	float: left;
+	width: 150px;
+	border-radius: 4px;
+	border: 1px solid #9b9b9b;
+}
+
+/* Блок с фразами */
+.reply{
+	margin-left: 160px;
+	padding-top: 3px;
+	border-top: 1px dashed;
+}
+.reply span{ font-size: small; padding-right: 5px;}
+object{height: 30px; width: 300px;}
+/*.eng{ padding: 4px 0; }*/
+.rus{
+	background: rgba(188, 143, 143, 0.22);
+	margin: -8px 0 15px;
+	padding: 4px 0;
+}
+.reply mark{
+	font-style: italic;
+	background: lavender;
+	border-bottom: 1px dashed rebeccapurple;
+}
+/* кнопки */
+.triangle{
+	background: url(http://nihonjinryuu.narod.ru/jikken/Spyro3-PR2/triangle.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding-left: 6px;
+	color: transparent;
+}
+.square{
+	background: url(http://nihonjinryuu.narod.ru/jikken/Spyro3-PR2/square.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding-left: 6px;
+	color: transparent;
+}
+.circle{
+	background: url(http://nihonjinryuu.narod.ru/jikken/Spyro3-PR2/circle.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding-left: 6px;
+	color: transparent;
+}
+.cross{
+	background: url(http://nihonjinryuu.narod.ru/jikken/Spyro3-PR2/cross.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding-left: 6px;
+	color: transparent;
+}
