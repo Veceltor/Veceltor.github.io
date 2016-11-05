@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css?family=Ruslan+Display" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=PT+Serif+Caption" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href=""https://veceltor.github.io/css/spyro-3.css">
+<title>Перевод Cloud Spires</title>
+</head>
+<body>
+	
+<script>
+// Плеер
+
+function ID(id){return document.getElementById(id);} // Можно использовать как сокращение.
+
+function sound_play(file){ // Непосредственная пауза/воспроизведение звука с нужным номером.
+ID('id'+file+'_audio').volume=sound_play.globvolume;
+if(sound_play.playing){
+sound_play.playing=false;
+ID('id'+sound_play.lastfile+'_audio').pause();
+ID('id'+sound_play.lastfile+'_play').innerHTML='►';
+if(file!=sound_play.lastfile)sound_play(file);
+}else{
+sound_play.playing=true;
+sound_play.lastfile=file;
+sound_update(file,0);
+ID('id'+file+'_audio').play();
+ID('id'+file+'_play').innerHTML='■';
+try{ID('id'+file+'_audio').currentTime=0;}catch(e){};
+}}
+
+function sound_update(file,pos){ // Внутренняя функция.
+ID('id'+file+'_current').style.left=(pos*100)+'%';
+if(pos>=0.99999){
+if(sound_play.playing)sound_play(sound_play.lastfile);
+ID('id'+file+'_current').style.left=0;
+}}
+
+function sound_create(file){ // Основная функция создания плеера по номеру реплики.
+var s='',LINK='http://klimaleksus.narod.ru/SPEECH/SPEECH_'; // ССЫЛКА НА ФАЙЛЫ!!
+s+='<audio preload="none" id="id'+file+'_audio"><source src="'+LINK+file+'.ogg" type=\'audio/ogg; codecs="vorbis"\'><source src="'+LINK+file+'.mp3" type=\'audio/mpeg; codecs="mp3"\'></audio>';
+s+='<button class="sound-button" id="id'+file+'_play" onclick="sound_play(\''+file+'\')">►</button>';
+s+='<div class="sound-progress"><div class="sound-position" id="id'+file+'_current">|</div></div>';
+return s;
+}
+
+function sound_volume(val){ // Громкость в процентах. Можно менять во время воспроизведения…
+sound_play.globvolume=val/100;
+if(sound_play.playing)ID('id'+sound_play.lastfile+'_audio').volume=sound_play.globvolume;
+}
+
+function sound_inits(){ // Вызвать один раз после прогрузки страницы.
+sound_play.globvolume=0.1;
+setInterval(function(){
+if(!sound_play.playing)return;
+var i=ID('id'+sound_play.lastfile+'_audio');
+sound_update(sound_play.lastfile,i.currentTime/ID('id'+sound_play.lastfile+'_audio').duration);
+},70);
+}
+
+//---------------
+var s='',i;
+
+sound_inits(); // Инициализация.
+sound_volume(20); // Громкость на 20%, можно менять 
+</script>
+
+
+<div id="wrapper">
+
+	<p class="corner"></p>
+	<p class="corner2"></p>
+	<p class="corner3"></p>
+	<p class="corner4"></p>
+	
+	<h1>Cloud Spires</h1>
+	
+	<div class="pic_cont">
+		<img src="cs_cover.jpg" />
+	</div>
+	<a class="download-btn" href="pad-sv.rar">Скачать ресурсы</a> 
+	<hr />
+
+	<article>
+		<div id="chars">
+			<div class="character">
+				<h2>Nimbus</h2>
+				<img src="http://vignette1.wikia.nocookie.net/spyro/images/b/ba/Nimbus.jpg/revision/latest?cb=20110213090607">
+			</div>
+			<div class="character">
+				<h2>Cirrus</h2>
+				<img src="http://vignette1.wikia.nocookie.net/spyro/images/f/fe/Cirrus.png/revision/latest?cb=20111105105635">
+			</div>
+			<div class="character">
+				<h2>Fluffy</h2>
+				<img src="http://vignette3.wikia.nocookie.net/spyro/images/1/12/Fluffy.jpg/revision/latest?cb=20110213082949">
+			</div>
+			<div class="character">
+				<h2>Stratus</h2>
+				<img src="http://vignette1.wikia.nocookie.net/spyro/images/d/d5/Stratus.jpg/revision/latest?cb=20110213092236">
+			</div>
+			<div class="character">
+				<h2>Cumulus</h2>
+				<img src="http://vignette1.wikia.nocookie.net/spyro/images/a/a1/Cumulus.jpg/revision/latest?cb=20110213084312">
+			</div>
+		</div>
+
+
+
+<!-- Результат парсинга -->
+<div class="reply"><p><span>1097</span>The rhynocs have shut down our cloud generator and I'll never see a rainbow again.</p><div class='player'><audio preload="none" id="id1097_audio"><source src="http://klimaleksus.narod.ru/SPEECH/SPEECH_1097.ogg" type='audio/ogg; codecs="vorbis"'><source src="http://klimaleksus.narod.ru/SPEECH/SPEECH_1097.mp3" type='audio/mpeg; codecs="mp3"'></audio><button class="sound-button" id="id1097_play" onclick="sound_play('1097')">►</button><div class="sound-progress"><div class="sound-position" id="id1097_current">|</div></div></div><p class="rus">Носороги заглушили наш генератор облаков, и теперь я никогда не увижу радугу.</p></div><div class="reply"><p><span>469</span>You'd think the Sorceress would want more rain, after what the sun has done to her skin.</p><div class='player'><audio preload="none" id="id469_audio"><source src="http://klimaleksus.narod.ru/SPEECH/SPEECH_469.ogg" type='audio/ogg; codecs="vorbis"'><source src="http://klimaleksus.narod.ru/SPEECH/SPEECH_469.mp3" type='audio/mpeg; codecs="mp3"'></audio><button class="sound-button" id="id469_play" onclick="sound_play('469')">►</button><div class="sound-progress"><div class="sound-position" id="id469_current">|</div></div></div><p class="rus">Казалось бы, Колдунье захочется ливня, после того, что солнце сделало с её кожей.</p></div><div class="reply"><p><span>414</span>If my wings were big and strong like yours, I could easily glide across here.</p><div class='player'><audio preload="none" id="id414_audio"><source src="http://klimaleksus.narod.ru/SPEECH/SPEECH_414.ogg" type='audio/ogg; codecs="vorbis"'><source src="http://klimaleksus.narod.ru/SPEECH/SPEECH_414.mp3" type='audio/mpeg; codecs="mp3"'></audio><button class="sound-button" id="id414_play" onclick="sound_play('414')">►</button><div class="sound-progress"><div class="sound-position" id="id414_current">|</div></div></div><p class="rus">Были б мои крылышки большими и сильными, как твои - я бы запросто тут пролетел.</p></div><div class="reply"><p><span>452</span>Oh, you activated the bellows? Maybe I can get the cloud generator working again...</p><div class='player'><audio preload="none" id="id452_audio"><source src="http://klimaleksus.narod.ru/SPEECH/SPEECH_452.ogg" type='audio/ogg; codecs="vorbis"'><source src="http://klimaleksus.narod.ru/SPEECH/SPEECH_452.mp3" type='audio/mpeg; codecs="mp3"'></audio><button class="sound-button" id="id452_play" onclick="sound_play('452')">►</button><div class="sound-progress"><div class="sound-position" id="id452_current">|</div></div></div><p class="rus">О, ты запустил меха? Может, теперь я смогу включить наш генератор облаков...</p></div><div class="reply"><p><span>479</span>The rhynocs must have been using this thing to clog up the cloud generator.</p><div class='player'><audio preload="none" id="id479_audio"><source src="http://klimaleksus.narod.ru/SPEECH/SPEECH_479.ogg" type='audio/ogg; codecs="vorbis"'><source src="http://klimaleksus.narod.ru/SPEECH/SPEECH_479.mp3" type='audio/mpeg; codecs="mp3"'></audio><button class="sound-button" id="id479_play" onclick="sound_play('479')">►</button><div class="sound-progress"><div class="sound-position" id="id479_current">|</div></div></div><p class="rus">Похоже, этой штукой носороги и заткнули наш генератор.</p></div><div class="reply"><p><span>319</span>We usually wake up our rain cloud at the crack of dawn, but these mischievous spirits are stopping our bells from ringing.</p><div class='player'><audio preload="none" id="id319_audio"><source src="http://klimaleksus.narod.ru/SPEECH/SPEECH_319.ogg" type='audio/ogg; codecs="vorbis"'><source src="http://klimaleksus.narod.ru/SPEECH/SPEECH_319.mp3" type='audio/mpeg; codecs="mp3"'></audio><button class="sound-button" id="id319_play" onclick="sound_play('319')">►</button><div class="sound-progress"><div class="sound-position" id="id319_current">|</div></div></div><p class="rus">Обычно мы будим дождевое облако на рассвете, но эти проказливые духи мешают нашим колоколам звонить.</p></div><div class="reply"><p><span>525</span>Do you want this doodad? It fell out of the belfry</p><div class='player'><audio preload="none" id="id525_audio"><source src="http://klimaleksus.narod.ru/SPEECH/SPEECH_525.ogg" type='audio/ogg; codecs="vorbis"'><source src="http://klimaleksus.narod.ru/SPEECH/SPEECH_525.mp3" type='audio/mpeg; codecs="mp3"'></audio><button class="sound-button" id="id525_play" onclick="sound_play('525')">►</button><div class="sound-progress"><div class="sound-position" id="id525_current">|</div></div></div><p class="rus">Тебе нужна эта безделушка? Она выпала из колокольни.</p></div><div class="reply"><p><span>1023</span>Our sun has gone out. We can make a new one with our lava fusion cauldron and three sun seeds, but they keep burning out before we can get them in the pot.</p><div class='player'><audio preload="none" id="id1023_audio"><source src="http://klimaleksus.narod.ru/SPEECH/SPEECH_1023.ogg" type='audio/ogg; codecs="vorbis"'><source src="http://klimaleksus.narod.ru/SPEECH/SPEECH_1023.mp3" type='audio/mpeg; codecs="mp3"'></audio><button class="sound-button" id="id1023_play" onclick="sound_play('1023')">►</button><div class="sound-progress"><div class="sound-position" id="id1023_current">|</div></div></div><p class="rus">Наше солнце угасло. Мы можем создать новое, сплавив три солнечных зернышка в котле лавосинтеза, но они сгорают прежде, чем мы их туда донесём.</p></div><div class="reply"><p><span>1096</span>Step on the switch to get a fresh sun seed and keep flaming it until you get it into the pot.</p><div class='player'><audio preload="none" id="id1096_audio"><source src="http://klimaleksus.narod.ru/SPEECH/SPEECH_1096.ogg" type='audio/ogg; codecs="vorbis"'><source src="http://klimaleksus.narod.ru/SPEECH/SPEECH_1096.mp3" type='audio/mpeg; codecs="mp3"'></audio><button class="sound-button" id="id1096_play" onclick="sound_play('1096')">►</button><div class="sound-progress"><div class="sound-position" id="id1096_current">|</div></div></div><p class="rus">Шагни на кнопку, чтобы сдвинуть солнышко, и подогревай его, пока оно не окажется в котле.</p></div><div class="reply"><p><span>276</span>Now that's what I call a sun! Here, you can have this last sun seed as a souvenir. I think it might be a dud, though.</p><div class='player'><audio preload="none" id="id276_audio"><source src="http://klimaleksus.narod.ru/SPEECH/SPEECH_276.ogg" type='audio/ogg; codecs="vorbis"'><source src="http://klimaleksus.narod.ru/SPEECH/SPEECH_276.mp3" type='audio/mpeg; codecs="mp3"'></audio><button class="sound-button" id="id276_play" onclick="sound_play('276')">►</button><div class="sound-progress"><div class="sound-position" id="id276_current">|</div></div></div><p class="rus">Вот это я называю солнцем! Да, можешь забрать оставшееся зернышко на память. Но, по-моему, оно никуда не годно.</p></div><div class="reply"><p><span>350</span>If you can't keep up with the sun seed, remember you can always hold down the &lt; button to charge.</p><div class='player'><audio preload="none" id="id350_audio"><source src="http://klimaleksus.narod.ru/SPEECH/SPEECH_350.ogg" type='audio/ogg; codecs="vorbis"'><source src="http://klimaleksus.narod.ru/SPEECH/SPEECH_350.mp3" type='audio/mpeg; codecs="mp3"'></audio><button class="sound-button" id="id350_play" onclick="sound_play('350')">►</button><div class="sound-progress"><div class="sound-position" id="id350_current">|</div></div></div><p class="rus">Если ты не поспеваешь за солнышком - помни, что с кнопкой &quot;квадрат&quot; можно бежать быстрее.</p></div>
+<!-- Результат парсинга -->
+
+
+
+		<a class="download-btn" href="audiojs.zip">Скачать ресурсы</a>
+		<hr />
+	</article>
+
+</div>
+
+
+</body>
+</html>
