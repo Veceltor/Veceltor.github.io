@@ -25,7 +25,7 @@ article{margin-top: 24px;}
 	width: 20px;
 	height: 20px;
 	position: absolute;
-	background: url(hard_all.png);
+	background: url(http://nihonjinryuu.narod.ru/jikken/Spyro3-PR2/hard_all.png);
 }
 .corner{ left: 0; top: 0;}
 .corner2{ right: 0; top: 0; background-position: 20px 0;}
@@ -49,7 +49,7 @@ article{margin-top: 24px;}
 	max-width: calc(100% - 16px);
 }
 hr{
-	background: url(new_hr.png);
+	background: url(http://nihonjinryuu.narod.ru/jikken/Spyro3-PR2/new_hr.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 33px;
