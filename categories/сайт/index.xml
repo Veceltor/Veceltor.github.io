@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Сайт on Перевод и модификация старых игр</title>
-    <link>https://veceltor.ml/categories/%D1%81%D0%B0%D0%B9%D1%82/</link>
+    <link>http://veceltor.ml/categories/%D1%81%D0%B0%D0%B9%D1%82/</link>
     <description>Recent content in Сайт on Перевод и модификация старых игр</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-RU</language>
     <lastBuildDate>Wed, 23 Nov 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://veceltor.ml/categories/%D1%81%D0%B0%D0%B9%D1%82/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://veceltor.ml/categories/%D1%81%D0%B0%D0%B9%D1%82/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Новый домен</title>
-      <link>https://veceltor.ml/news/newdomain/</link>
+      <link>http://veceltor.ml/news/newdomain/</link>
       <pubDate>Wed, 23 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://veceltor.ml/news/newdomain/</guid>
+      <guid>http://veceltor.ml/news/newdomain/</guid>
       <description>&lt;p&gt;Теперь сайт доступен по адресу &lt;a href=&#34;http://veceltor.ml&#34;&gt;http://veceltor.ml&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Другая тема оформления</title>
-      <link>https://veceltor.ml/news/newdesign/</link>
+      <link>http://veceltor.ml/news/newdesign/</link>
       <pubDate>Sat, 27 Aug 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://veceltor.ml/news/newdesign/</guid>
+      <guid>http://veceltor.ml/news/newdesign/</guid>
       <description>&lt;p&gt;Смена оформления.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Новый сайт</title>
-      <link>https://veceltor.ml/news/start/</link>
+      <link>http://veceltor.ml/news/start/</link>
       <pubDate>Thu, 25 Aug 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://veceltor.ml/news/start/</guid>
+      <guid>http://veceltor.ml/news/start/</guid>
       <description>&lt;p&gt;Перезапуск сайта. (в очередной раз)&lt;br /&gt;
 Сейчас тут особо не на что смотреть, но если вы каким-то образом сюда попали - добро пожаловать!&lt;/p&gt;
 </description>
