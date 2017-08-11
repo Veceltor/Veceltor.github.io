@@ -1,0 +1,73 @@
+body {
+	background-color: #eee;
+	font-family: sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+#header {
+	background-color: #000000;
+	height: 70px;
+	text-align: center;
+	clear: both;
+	font-size: 1.7em;
+	padding: 0.7ex 0.7ex 0.7ex 0.7em;
+}
+
+#headerLink {
+	color: #797979;
+	margin-left: 5px;
+	
+}
+
+a {
+	color: #005E00;
+	text-decoration: none;
+}
+
+#nav {
+	background-color: #fff;
+	float: left;
+	margin: 0 1px 0 0;
+	padding: 1em 0;
+	border-right: 1px dotted #ccc;
+	width: 200px;
+	height: 85vh;
+}
+
+#nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+#nav li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#nav li ul {
+  padding-left: 0.6em !important;
+}
+
+#nav li a {
+	display: block;
+	margin: 0;
+	padding: 0.8ex 2em 0.8ex 1em;
+}
+
+#nav li a:hover {
+	background-color: #eee;
+}
+
+#nav li a.thisPage {
+	color: #222;
+	font-weight: bold;
+}
+
+#main {
+	margin: 0 0 0 200px;
+	padding: 1.5em;
+	max-width: 80%;
+	text-align: center;
+}
