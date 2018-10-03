@@ -1,2 +1,0 @@
-Air Combat / Ace Combat
-content/ac_text.html

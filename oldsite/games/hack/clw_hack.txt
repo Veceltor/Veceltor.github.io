@@ -1,2 +1,0 @@
-Colony Wars
-content/clw_hack.html

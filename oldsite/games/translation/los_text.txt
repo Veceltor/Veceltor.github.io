@@ -1,2 +1,0 @@
-Legend of Spyro
-content/los_text.html

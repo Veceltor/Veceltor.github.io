@@ -1,2 +1,0 @@
-Spyro 3
-content/spyro3/index.html
