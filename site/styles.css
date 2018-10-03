@@ -1,23 +1,31 @@
 body{
 	font-size: 110%;
-	background-image: url("/site/img/textBG.png");
 	text-align: center;
 }
 		 
-#main-page { 
-	font-size: 120%;
-	text-align: center;
-}
 td {
 	vertical-align: top;
 }
 
 table {
 	width: 100%;
-    height: 100%;
+	height: 100%;
 	border-spacing: 0px;
 }
 
-iframe {
-	border:none;
+.separator {
+	background-color: black;
 }
+
+.navTable {
+		font-size: 110%;
+		text-align: center;
+		font-family: "Arial", Helvetica, sans-serif;
+		font-style: normal;
+		background-color: white;
+	} 
+	
+a:hover {
+	background-color: #EBE9F6;
+}
+	
